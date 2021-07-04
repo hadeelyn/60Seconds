@@ -1,0 +1,192 @@
+body {
+    font-family: 'SegoeUI-Bold',  Segoe UI;
+    width: 100%;
+    height: 100vh;
+  
+    background-color: #2375d6;
+}
+ .navbar-collapse,.foo{
+    background-color: #2375d6;
+
+ } 
+ .test{
+    background: white;
+    width:100%;   
+    height: 200px; 
+    border-bottom-left-radius: 90% 0%;
+    border-bottom-right-radius: 30% 0%;
+    border-top-left-radius: 30% 80%;
+    border-top-right-radius: 30% 70%;
+      }
+ 
+ .left-section{
+    margin:50px;
+      width:40%;
+  margin-left:15%;
+}
+.check{
+    width: 19px;
+    height: 19px;
+}
+ .m{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .imgw{
+     width: 290px;
+     height:586px ;
+     margin-left: 20%;
+ 
+ }
+.foo{
+    text-align: center;
+ 
+    color: #fafafa;
+}
+.social{
+    padding-top: 50px;
+    margin-left: 700px;
+}
+.socialItem{
+   
+    border-radius: 50%;
+    line-height: 1;
+    margin: 5px;
+}
+.socialItem:hover{
+    background: #6db4e4;
+    border: solid 1px white;
+}
+.socialItem i{
+    color: #f1f6fc;
+    padding: 5px;
+}
+.socialItem i.fa-facebook-f{
+    padding: 5px 8px;
+}
+.socialItem i:hover{
+    color: white;
+}
+nav{
+    font-size: 18px;
+    
+}
+.navbar-light .navbar-brand{
+    font-size: 32px;
+    color: #fafafa;
+}
+.navbar-light .navbar-nav .nav-link,h1{
+
+ 
+    color: rgb(247, 239, 239);
+}
+ button{
+  padding: 10px;
+  border: none;
+  margin: 10px;
+  width: 150px;
+    border-radius: 20px;
+    color: #2375d6;
+ }
+ section {
+    width: 100%;
+    min-height: 400px;
+}
+p{
+   color: black;
+}
+.boxbot{
+ 
+    border-bottom:   5px solid #2375d6;
+     margin: 30px;
+     box-shadow:  -4px 4px 5px 0 rgb(223, 209, 209);
+    border-radius: 5px;
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    
+}
+ .foo{
+  
+     border-top-left-radius: 90px;
+     border-top-right-radius: 90px;
+ }
+ textarea{
+     border: none;
+     border-radius: 20px;
+ }
+.boxc{
+  
+ 
+     margin: 10px;
+   
+    border-radius: 5px;
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    padding: 15px;
+   
+}
+.boxhow{
+   
+ 
+     margin: 30px;
+    
+    border-radius: 5px;
+    background-color: white;
+    width: 400px;
+    padding: 25px;
+}
+.box{
+    text-align: center;
+    border-top:   5px solid #2375d6;
+     margin: 10px;
+     box-shadow:  -4px 4px 5px 0 rgb(223, 209, 209);
+    border-radius: 5px;
+    background-color: white;
+    width: 200px;
+    padding: 25px;
+}
+ .testimonials,.ourFeature,.how,.client,.contact{
+     background-color: #fafafa;
+ }
+ .about{
+background-color: #f0f4fa;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+ }
+ .row{
+
+    margin-left: 15%;
+}
+input{
+    height: 30px;
+    border:none;
+    border-radius: 10px;
+    outline: none;
+}
+
+ .advertisementFooter{
+    padding: 0px 15px;
+    margin-left: 670px;
+}
+.advertisementFooter i {
+    color: #ffdb00;
+}
+ 
+.feature,.client{
+    text-align: center;
+ 
+}
+.aboutApp{
+  justify-content: space-around;
+ display: flex;
+ flex-direction: row;
+
+}
+li{
+  
+    padding: 10px;
+}
