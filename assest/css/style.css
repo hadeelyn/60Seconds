@@ -1,0 +1,423 @@
+ /*common*/
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+:root{
+    --mainColor:#2375D6;
+  
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.section-padding{
+    padding: 40px 0;
+}
+.section-header{
+    text-align: center;
+    margin-bottom: 25px ;
+}
+.section-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+.pd-y{
+    padding: 120px 0;
+}
+
+.carousel-item img{
+ max-width: 10%;
+ margin-left:46%;
+
+}
+
+/****** header ********/
+  
+header{
+
+    background: var(--mainColor);
+}
+
+header nav {
+    font-size: 18px;
+    
+} 
+
+.navbar-light .navbar-nav .nav-link,h1{
+    color: rgb(247, 239, 239);
+    
+}
+.testimonials{
+    width: 99%;
+}
+
+/****** Home section ********/
+ 
+.home{
+ 
+    background: var(--mainColor);
+}
+ 
+ .home-content{
+    width: 50%;
+float: left;
+}
+
+.home .title{
+ 
+    font-size: 3.1rem;
+    text-transform: capitalize;
+    }
+  .home .home-desc{
+        padding-right: 20px;
+        color: #fff;
+        line-height: 1.5;
+        font-size: 17px;
+        margin-bottom: 20%;
+    }
+
+.cform button{
+    min-width: 100px;
+    padding: 15px 0;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+      border-radius: 20px;
+      color: #2375d6;
+   }
+ 
+ .cinfo{
+   display: grid;
+   grid-template-columns: repeat(2,300px);
+   grid-template-rows: repeat(2,100px);
+   grid-column-gap: 2%;
+   grid-row-gap: 3%;
+ }
+ .navbar-collapse,.foo{
+    background-color: #2375d6;
+
+ } 
+ .test{
+    background: white;
+    width:100%;   
+
+    height: 100px;
+   
+    border-bottom-left-radius: 90% 0%;
+    border-bottom-right-radius: 30% 0%;
+    border-top-left-radius: 30% 80%;
+    border-top-right-radius: 30% 70%;
+      }
+      
+ 
+.navbar-light .navbar-brand{
+    font-size: 32px;
+    color: #fafafa;
+}
+ 
+ .home button{
+  padding: 10px;
+  border: none;
+  margin: 10px;
+  width: 150px;
+    border-radius: 20px;
+    color: #2375d6;
+ }
+ section {
+    width: 100%;
+    min-height: 400px;
+}
+p{
+   color: black;
+}
+.boxbot{
+ 
+    border-bottom:   5px solid #2375d6;
+     margin: 40px;
+     box-shadow:  -4px 4px 5px 0 rgb(223, 209, 209);
+    border-radius: 5px;
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    
+}
+ .foo{
+  
+     border-top-left-radius: 90px;
+     border-top-right-radius: 90px;
+ }
+ textarea{
+     border: none;
+     border-radius: 20px;
+    
+ }
+ input,textarea{
+     width: 190px;
+      padding: 10px;
+ }
+ 
+ .hh{
+     text-align: left;
+ }
+.boxc{
+     
+    border-radius: 5px;
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    padding: 15px;
+   text-align: left;
+}
+/*about app*/
+.how-img {
+  float: left;
+    width: 10%;
+}
+.how-row{
+float: right;
+width: 60%; 
+margin-right: 200px;
+}
+.about-fl{
+    float: left;
+    width: 40%;
+    
+  margin-right: 40px;
+}
+.how-img-carve{
+    background: var(--mainColor);
+    width:100%;   
+    height: 20%;
+    border-bottom-left-radius: 90% 0%;
+    border-bottom-right-radius: 30% 0%;
+    border-top-left-radius: 30% 80%;
+    border-top-right-radius: 30% 70%;
+}
+.aboutApp-img{
+    position: relative;
+    bottom: 170px;
+    right: 5%;
+   
+}
+.aboutApp-img2{
+    position: absolute;
+     left: 15%;
+    top: 160%;
+    
+}
+ .row{
+     margin-left: 5%;
+ }
+.boxhow{
+        display: block;
+    border-radius: 5px;
+    background-color: white;
+    width:60%;
+    height: 20%;
+    padding: 25px;
+}
+.batman{
+    display: grid;
+    grid-template-columns: repeat(2,80%);
+     grid-template-rows: repeat(2,40%);
+}
+.box{
+    text-align: center;
+    border-top:   5px solid #2375d6;
+     margin: 20px;
+     box-shadow:  -4px 4px 5px 0 rgb(223, 209, 209);
+    border-radius: 5px;
+    background-color: white;
+    height: 200px;
+    padding: 25px;
+    
+    width: 20%;
+}
+ .testimonials,.ourFeature,.how,.client,.contact{
+     background-color: #fafafa;
+ }
+ .about{
+background-color: #fff;
+ width: 99%;
+ }
+ 
+input{
+    height: 30px;
+    border:none;
+    border-radius: 10px;
+    outline: none;
+}
+
+ .advertisementFooter{
+    padding: 0px 15px;
+   
+    margin:0 0 0 45%;
+}
+.item{
+display: flex;
+ justify-content: center;
+width: 50%;
+margin-left: 10%;
+ 
+}
+ 
+span.carousel-control-next-icon,span.carousel-control-prev-icon{
+    background-color: var(--mainColor);
+  }
+ .client-quote{
+    margin:0 45% 5% 40%;
+ }
+.advertisementFooter i {
+    
+    color: #ffdb00;
+}
+ .feature{
+    width: 90%;
+ }
+.feature,.client{
+    text-align: center;
+ 
+}
+.aboutApp{
+   
+ display: flex;
+ flex-direction: row;
+ width: 95%;
+
+
+}
+.aboutApp-info{
+    padding-top: 80px;
+    
+     float: right ;
+     width: 60%;
+}
+li{
+  
+    padding: 10px;
+}
+ .cform .send{
+     background-color: #2375d6; 
+     color: rgb(245, 243, 243);
+      margin-left: 10%;
+ }
+ 
+/*footer*/
+.foo{
+    text-align: center;
+ 
+    color: #fafafa;
+}
+.social{
+    padding-top: 50px;
+    margin-left: 700px;
+}
+.socialItem{
+   
+    border-radius: 50%;
+    line-height: 1;
+    margin: 5px;
+}
+.socialItem:hover{
+    background: #6db4e4;
+    border: solid 1px white;
+}
+.col-lg-5{
+    margin-left: 40%;
+}
+.socialItem i{
+    color: #f1f6fc;
+    padding: 5px;
+}
+.socialItem i.fa-facebook-f{
+    padding: 5px 8px;
+}
+.socialItem i:hover{
+    color: white;
+}
+ 
+@media (min-width:300px) and (max-width: 780px){
+    .imgw{
+        max-width: 90%;
+    }
+   
+  .home-content{
+        float: left;
+        width: 60%;
+    }
+    .home-content-img {
+      float: right;
+      width: 40%;
+      
+    }
+    .home-content-img img{
+       
+        max-width: 100%;
+        padding-top: 20%;
+      }
+     p{
+        font-size: 12px;
+       
+    }
+    nav{
+     margin-left: 60%;
+    }
+    .aboutApp-info{
+       max-width: 30%;
+        font-size: 12px;
+    }
+ 
+    .how .boxhow{
+        display: inline-block;
+        font-size: 10px;
+          margin-right:59px ;
+          width: 50%;
+          height: 15%;
+    }
+    .how .boxhow h3{
+       font-size: 18px;
+    }
+    .cform{
+       margin: 0 0 0 15%;
+        width: 10%;
+    }
+ .how-img{
+ display: none;
+ }
+
+    .how-row{
+        float: right;
+    width: 60%;
+    left: 10%;
+     }
+ 
+     .batman{
+         display: grid;
+         grid-template-columns: repeat(2,90%);
+         grid-template-rows: repeat(2,50%);
+
+     }
+    
+    .aboutApp-img{
+  width: 20%;
+}
+   
+ 
+}
+ 
