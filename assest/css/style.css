@@ -1,4 +1,4 @@
- /*common*/
+  /*common*/
  
 *{
     margin: 0;
@@ -12,10 +12,6 @@ body{
 :root{
     --mainColor:#2375D6;
   
-}
-.container{
-    width: 80%;
-    margin: auto;
 }
 
 .section-padding{
@@ -78,6 +74,9 @@ header nav {
     width: 50%;
 float: left;
 }
+ .home-contents{
+     float: right;
+ }
 
 .home .title{
  
@@ -94,21 +93,15 @@ float: left;
 
 .cform button{
     min-width: 100px;
-    padding: 15px 0;
+    padding: 5px 0;
     border: none;
     margin: 10px;
     cursor: pointer;
-      border-radius: 20px;
+      border-radius: 35px;
       color: #2375d6;
    }
  
- .cinfo{
-   display: grid;
-   grid-template-columns: repeat(2,300px);
-   grid-template-rows: repeat(2,100px);
-   grid-column-gap: 2%;
-   grid-row-gap: 3%;
- }
+
  .navbar-collapse,.foo{
     background-color: #2375d6;
 
@@ -175,11 +168,17 @@ p{
  .hh{
      text-align: left;
  }
+ .about-fl{
+     float: left;
+     width: 50%;
+     padding-bottom: 40px;
+ }
 .boxc{
      
     border-radius: 5px;
     background-color: white;
-    width: 250px;
+    width: 45%;
+    margin: 10px;
     height: 100px;
     padding: 15px;
    text-align: left;
@@ -194,12 +193,7 @@ float: right;
 width: 60%; 
 margin-right: 200px;
 }
-.about-fl{
-    float: left;
-    width: 40%;
-    
-  margin-right: 40px;
-}
+
 .how-img-carve{
     background: var(--mainColor);
     width:100%;   
@@ -211,19 +205,13 @@ margin-right: 200px;
 }
 .aboutApp-img{
     position: relative;
-    bottom: 170px;
-    right: 5%;
-   
+    top: -150px;
 }
 .aboutApp-img2{
     position: absolute;
-     left: 15%;
-    top: 160%;
+    left: 270px;
     
 }
- .row{
-     margin-left: 5%;
- }
 .boxhow{
         display: block;
     border-radius: 5px;
@@ -240,21 +228,20 @@ margin-right: 200px;
 .box{
     text-align: center;
     border-top:   5px solid #2375d6;
-     margin: 20px;
-     box-shadow:  -4px 4px 5px 0 rgb(223, 209, 209);
+    box-shadow:  -4px 4px 5px 0 rgb(223, 209, 209);
     border-radius: 5px;
     background-color: white;
     height: 200px;
-    padding: 25px;
-    
-    width: 20%;
+    width: 22%;
+
 }
- .testimonials,.ourFeature,.how,.client,.contact{
+.v{
+    float: left;
+    width: 50%;
+}
+
+ .about,.how,.client,.contact{
      background-color: #fafafa;
- }
- .about{
-background-color: #fff;
- width: 99%;
  }
  
 input{
@@ -294,19 +281,10 @@ span.carousel-control-next-icon,span.carousel-control-prev-icon{
     text-align: center;
  
 }
-.aboutApp{
-   
- display: flex;
- flex-direction: row;
- width: 95%;
-
-
-}
 .aboutApp-info{
     padding-top: 80px;
-    
      float: right ;
-     width: 60%;
+    width: 50%;
 }
 li{
   
@@ -351,20 +329,28 @@ li{
 .socialItem i:hover{
     color: white;
 }
+.cform{
+    float: right;
+    width: 50%;
+}
  
-@media (min-width:300px) and (max-width: 780px){
+@media (max-width: 768px){
     .imgw{
         max-width: 90%;
     }
    
   .home-content{
-        float: left;
-        width: 60%;
+        float: none;
+        width: 100%;
+      text-align: center;
     }
-    .home-content-img {
-      float: right;
-      width: 40%;
-      
+    .home-contents{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .box{
+        width: 40%;
     }
     .home-content-img img{
        
@@ -379,10 +365,15 @@ li{
      margin-left: 60%;
     }
     .aboutApp-info{
-       max-width: 30%;
+        padding: 20px;
+        float: none;
+        width: 100%;
         font-size: 12px;
     }
- 
+    .aboutApp-info h1,
+    .aboutApp-info p{
+        text-align: center;
+    }
     .how .boxhow{
         display: inline-block;
         font-size: 10px;
@@ -393,9 +384,26 @@ li{
     .how .boxhow h3{
        font-size: 18px;
     }
+    .about-fl{
+        position: relative;
+        float: none;
+        width: 100%;
+    }
+
+    .v{
+        float: none;
+        width: 100%;
+    }
     .cform{
-       margin: 0 0 0 15%;
-        width: 10%;
+        width: 100%;
+        float: none;
+    }
+    .hh{
+        text-align: center;
+    }
+    .boxc{
+        width: 100%;
+        text-align: center;
     }
  .how-img{
  display: none;
@@ -411,12 +419,20 @@ li{
          display: grid;
          grid-template-columns: repeat(2,90%);
          grid-template-rows: repeat(2,50%);
-
      }
-    
     .aboutApp-img{
-  width: 20%;
-}
+        position: relative;
+        top: -35px;
+        left: -50px;
+        width: 100%;
+    }
+    .aboutApp-img2{
+        position: absolute;
+        left: 100px;
+        top: 100px;
+        height: 100%;
+        padding-bottom: 90px;
+    }
    
  
 }
